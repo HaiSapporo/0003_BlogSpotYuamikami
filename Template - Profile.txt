@@ -1,0 +1,52 @@
+Option 1
+<b:includable id='userProfileText'>
+  <div class='profile-text'><b:eval expr='data:aboutme snippet {length: 60, links: false, linebreaks: false}'/></div>
+</b:includable>
+
+
+Option 2 
+<b:includable id='userProfileMedia'>    
+  <!-- Link social media -->
+  <ul class='profile-media'>
+    <!-- Facebook -->
+    <li>
+      <a aria-label='Social Media' href='#' rel='noreferrer noopener' role='button' target='_blank'>
+        <svg viewBox='0 0 32 32'>...</svg>
+      </a>
+    </li>
+    <!-- Twitter -->
+    <li>...</li>
+    <!-- Instagram -->
+    <li>...</li>
+    <!-- linkedin -->
+    <li>...</li>
+  </ul>
+</b:includable>
+
+
+Profile team 
+
+<b:loop index='team' values='data:authors' var='author'>
+  <b:if cond='data:team &lt;= 0'>
+    <li>
+      <div class='team-member'>
+        <b:include data='author' name='teamProfileLink'/>
+      </div>
+    </li>
+  </b:if>
+  <b:if cond='data:team &gt;= 1'>
+    <li>
+      <div class='more-member'>
+        <label class='profile-more' for='offall-member'>
+          <svg class='post-thumb' viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'>...</svg>
+        </label>
+        <span><b:eval expr='&quot;+&quot; + (data:authors.length - 1) + &quot; more&quot;'/></span>
+      </div>
+      ...
+    </li>
+  </b:if>
+</b:loop>
+
+Tham khao setting 
+
+https://median-ui.jagodesain.com/2020/10/panduan-setting-widget.html

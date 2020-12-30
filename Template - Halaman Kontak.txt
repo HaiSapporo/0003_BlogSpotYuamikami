@@ -1,0 +1,22 @@
+Silahkan hubungi kami untuk pembelian template ini<br/><br/>
+<div class='ContactForm' id='ContactForm1'>
+  <form name='contact-form'>
+    <div class='input-area'>
+      <label for='ContactForm1_contact-form-name'>Nama Anda</label><input class='contact-form-name' id='ContactForm1_contact-form-name' name='name' type='text' value='' /></div>
+    <div class='input-area'>
+      <label for='ContactForm1_contact-form-email'>Email<span>*</span></label><input class='contact-form-email' id='ContactForm1_contact-form-email' name='email' type='text' value='' /></div>
+    <div class='input-area'>
+      <label for='ContactForm1_contact-form-email-message'>Pesan<span>*</span></label><textarea class='contact-form-email-message' id='ContactForm1_contact-form-email-message' name='email-message'></textarea></div>
+    <div class='input-area'>
+      <input class='contact-form-button contact-form-button-submit' id='ContactForm1_contact-form-submit' type='button' value='Kirim' /></div>
+    <div class='notif-area'>
+      <p class='contact-form-error-message' id='ContactForm1_contact-form-error-message'></p>
+      <p class='contact-form-success-message' id='ContactForm1_contact-form-success-message'></p>
+    </div>
+  </form>
+</div>
+<script src='https://www.blogger.com/static/v1/widgets/2271878333-widgets.js'></script>
+<script>//<![CDATA[
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '6086676692815096220';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d6086676692815096220','//median-ui.blogspot.com/','6086676692815096220');
+_WidgetManager._RegisterWidget('_ContactFormView', new _WidgetInfo('ContactForm1', 'footer1', null, document.getElementById('ContactForm1'), {'contactFormMessageSendingMsg': 'Sending...', 'contactFormMessageSentMsg': 'Your message has been sent.', 'contactFormMessageNotSentMsg': 'Message could not be sent. Please try again later.', 'contactFormInvalidEmailMsg': 'A valid email address is required.', 'contactFormEmptyMessageMsg': 'Message field cannot be empty.', 'title': 'Contact Form', 'blogId': '6086676692815096220', 'contactFormNameMsg': 'Name', 'contactFormEmailMsg': 'Email', 'contactFormMessageMsg': 'Message', 'contactFormSendMsg': 'Send', 'submitUrl': 'https://www.blogger.com/contact-form.do'}, 'displayModeFull'));
+//]]></script>

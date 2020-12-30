@@ -1,0 +1,8 @@
+<div class='follow-by-email-inner'>
+  <label class='follow-by-email-text' for='email-input'>Get updates right in your inbox. Join to get notified with all new stuff</label>
+  
+  <form expr:action='&quot;https://feedburner.google.com/fb/a/mailverify?uri=&quot; + data:feedPath' method='get' target='_blank'>
+    <input autocomplete='on' class='follow-by-email-address' id='email-input' name='email' placeholder='e.g. youremail@gmail.com' type='email'/>
+    ...
+  </form>
+</div>
